@@ -1,0 +1,4 @@
+org\example\service\RuleService.class
+org\example\App.class
+org\example\controller\HelloController.class
+org\example\DroolsApplication.class

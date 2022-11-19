@@ -1,0 +1,16 @@
+template header
+condition
+execution
+
+package template
+
+template "this is a test"
+
+    rule "test_@{row.rowNumber}"
+        when
+            @{condition}
+        then
+            System.out.println(@{execution});
+    end
+
+end template
