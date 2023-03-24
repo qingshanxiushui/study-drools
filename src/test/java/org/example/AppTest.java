@@ -35,4 +35,12 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    public void testMain()
+    {
+        System.out.println("hello");
+        System.out.println(156/6);
+        System.out.println(186/6);
+        System.out.println(234/6);
+    }
 }

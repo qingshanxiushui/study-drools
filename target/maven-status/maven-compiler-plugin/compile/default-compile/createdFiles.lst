@@ -1,4 +1,11 @@
-org\example\service\RuleService.class
-org\example\App.class
-org\example\controller\HelloController.class
+org\example\model\Student.class
+org\example\dto\WriteParamsDto.class
 org\example\DroolsApplication.class
+org\example\dto\ParamDto$ParamDtoBuilder.class
+org\example\dto\WriteRecordDto.class
+org\example\service\RuleService.class
+org\example\controller\HelloController.class
+org\example\service\PrintAgendaFilter.class
+org\example\App.class
+org\example\dto\WriteColumnDto.class
+org\example\dto\ParamDto.class
