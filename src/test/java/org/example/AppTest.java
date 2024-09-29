@@ -1,5 +1,6 @@
 package org.example;
 
+import junit.framework.Assert;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -43,4 +44,5 @@ public class AppTest
         System.out.println(186/6);
         System.out.println(234/6);
     }
+
 }

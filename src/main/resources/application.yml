@@ -3,3 +3,26 @@ server:
 spring:
   application:
     name: drools_springboot
+  mail:
+    host: smtp.neusoft.com
+    port: 587
+    username: yang-qs@neusoft.com
+    password: Dryqs.2022
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    ssl:
+      trust: "*"
+  cloud:
+    sentinel:
+      transport:
+        dashboard: disabled # 禁用 Sentinel 控制台
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
